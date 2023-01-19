@@ -17,7 +17,7 @@ const WorkoutDetails = ({ workout }) => {
 	}
 
 	return (
-		<div className='workout-details'>
+		<article className='workout-details'>
 			<h4>{workout.title}</h4>
 			<p>
 				<strong>Load (kg):</strong>
@@ -38,7 +38,7 @@ const WorkoutDetails = ({ workout }) => {
 			>
 				Delete
 			</span>
-		</div>
+		</article>
 	)
 }
 export default WorkoutDetails

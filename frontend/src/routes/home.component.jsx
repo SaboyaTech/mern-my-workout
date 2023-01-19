@@ -1,18 +1,13 @@
-// import {useEffect} from 'react'
-import Workouts from '../components/workouts/workouts.component'
-import WorkoutForm from '../components/workout-form/workout-form.component'
+import { DashboardLayout } from '../layout/DashboardLayout'
 import './home.styles.css'
 
 const Home = () => {
-	// useEffect(() => {
 
-	// } [])
-
+	
 	return (
-		<div className='home'>
-			<Workouts />
-			<WorkoutForm />
-		</div>
+		<main>
+			<DashboardLayout />
+		</main>
 	)
 }
 export default Home
